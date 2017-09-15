@@ -11,7 +11,6 @@ from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.utils.extmath import row_norms, squared_norm
 from sklearn.utils.sparsefuncs_fast import assign_rows_csr
 from sklearn.utils.sparsefuncs import mean_variance_axis
-from sklearn.utils.fixes import astype
 from sklearn.utils import check_array
 from sklearn.utils import check_random_state
 from sklearn.utils import as_float_array
